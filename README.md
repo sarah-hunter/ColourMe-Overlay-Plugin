@@ -2,7 +2,7 @@
 
 ## Overview
 
-A jQuery plugin that takes the dominant colour of your photos and applies that to the background colour of your overlay.
+A jQuery plugin that takes the dominant colour of your photos and applies it to the background colour of your overlay. You'll see in the demo that the overlay is activated upon hover. It's pretty nifty!
 See it live [here](http://sarah-hunter.github.io/ColourMe-Overlay-Plugin)
 
 ## How to use it
