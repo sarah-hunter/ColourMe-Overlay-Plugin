@@ -3,7 +3,7 @@
 ## Overview
 
 A jQuery plugin that takes the dominant colour of your photos and applies that to the background colour of your overlay.
-See it live here: (http://sarah-hunter.github.io/ColourMe-Overlay-Plugin)
+See it live [here](http://sarah-hunter.github.io/ColourMe-Overlay-Plugin)
 
 ## How to use it
 1. Link "jquery.colourOverlay.js" and "colouroverlay.css" to your HTML file</p>
@@ -21,6 +21,7 @@ $(function() {
 	$('.photos').colourMe();
 });
 	</pre>
+
 ## Demo
 
 Here's a little demo of how it works.
