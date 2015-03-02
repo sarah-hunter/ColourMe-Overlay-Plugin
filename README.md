@@ -25,6 +25,7 @@ $(function() {
 ## Demo
 
 Here's a little demo of how it works.
+
 ![Demo](http://g.recordit.co/ac3iM3m9oo.gif)
 
 ## Credit
