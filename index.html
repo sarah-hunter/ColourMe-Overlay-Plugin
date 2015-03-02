@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="stylesheet.css">
+	<title>ColourMe Overlay Plugin Project</title>
+	<link rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
+
+<header>
+	<div class="header-box">
+		<h1>ColourMe Overlay</h1>
+		<p>A jQuery plugin that takes the dominant colour of your photos and applies that to the background colour of your overlay.</p>
+		<p>Scroll down below the demo to view the documentation.</p>
+
+	</div>	
+</header>
+<div class="hoverme">
+	<img src="images/hoverme.svg" alt="hoverme">
+</div>
 
 <div class="gallery-container clearfix">
 
@@ -44,6 +59,25 @@
 		<div class="overlay"></div>
 		<img src="images/photo9.jpg" alt="">
 	</div>	
+</div>
+
+<div class="documentation">
+	<h2>How It Works</h2>
+	<p>1. Link "jquery.colourOverlay.js" and "stylesheet.css" to your HTML file</p>
+	<p>2. Create a <span class="code">&lt;div&gt;</span> with a <span class="code">&lt;div class=&quot;overlay&quot;&gt;</span> and a <span class="code">&lt;img&gt;</span> inside. </p>
+	<pre> 
+&lt;div class=&quot;photoDiv&quot;&gt;
+	&lt;img src=&quot;images/photoName.jpg&quot; alt=&quot;&quot;&gt;
+	&lt;div class=&quot;overlay&quot;&gt;&lt;/div&gt;
+&lt;/div&gt;
+	</pre>
+	<p>3. In your main javascript file, add the following code to call the function, remembering to change the class to whatever you've named your div: </p>
+	<pre class="function">
+$(function() {
+	$('.photos').colourMe();
+});
+	</pre>
+	<h3 class="github">View it on <div class="github-icon"><a href="https://github.com/sarah-hunter/Dominant-Color-Overlay-Plugin"><i class="fa fa-github-alt fa-2x"></i></a></div></h3>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
