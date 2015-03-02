@@ -21,4 +21,4 @@ $(function() {
 });
 	</pre>
 
-### [View the demo](http://sarah-hunter.github.io/colourMe-Overlay/)
+### [View the demo](http://sarah-hunter.github.io/colourMe-Overlay-plugin/)
